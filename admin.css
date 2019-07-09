@@ -1,0 +1,157 @@
+body{
+	background-color: #0c1c2f !important;
+	color:#f2e2d2 !important;
+}
+
+
+.container{
+	margin-top: 2%;
+}
+
+
+#row1{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/*mobile navbar*/
+
+
+
+/*desktop navbar*/
+
+.navbar-wrapper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.mynav{
+	background-color: #ffffff;
+	overflow: hidden;
+	height:50px;
+	margin-top: 4%;
+	padding-top: 0px;
+	margin-bottom: 2%;
+	position: absolute;
+	z-index: 999;
+}
+
+.nav_options{
+	float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#logo{
+	margin-top: 1%;
+	padding-top: 0;
+	margin-left: 33%;
+	position: absolute;
+	width:12%;
+	z-index: 1000;
+}
+
+
+#m{
+	margin-left: 10%;
+	margin-right: 0;
+}
+
+#t{
+	margin-left: 20%;
+	padding-left: 0;
+
+}
+
+.nav_options:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.nav_options:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.btn-primary-outline{
+	background:transparent;
+	color:#000000;
+	padding-bottom: 0;
+}
+
+.btn-primary-outline:hover{
+	background-color: #0c1c2f;
+	color:#e0cf95;
+}
+
+
+/*CAROUSEL*/
+
+
+#slideshow .carousel-inner{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+.mobile_img{
+	display:none; 
+	visibility: hidden;
+}
+
+#slideshow .carousel-inner img{
+	width:100%;
+	height:800px;
+}
+
+h1{
+	padding-left:1%; 
+	color: #0c1c2f;
+	border-left: 5px solid #e88000; 
+}
+
+.button-padding{
+	padding-top: 1%;
+}
+
+#brand-logo{
+  width: 200px;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  bottom: -65%;
+  position: absolute;
+}
+
+
+/*mobile view*/
+@media only screen and (max-width: 400px) {
+    .desktop_img{display:none; visibility: hidden;}
+    .mobile_img{display:block; visibility: visible;}
+
+    #desktop-navbar{display:none; visibility: hidden;}
+    #mobile-navbar{display:block; visibility: visible;}
+
+    #equipment-container img{
+    	padding:2% 2% 2% 2%;
+    }
+    #brand-logo{
+	    width: 75px;
+	    margin-left: 230%;
+	    position: relative;
+	}
+	#hidden-xs{
+		display: none;
+	}
+	#mobile-button{
+	margin-left: 57%;
+	}
+} 
+
